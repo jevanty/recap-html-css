@@ -2,39 +2,44 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="contact.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
         <h1>Contact Us!</h1>
-        <form action="/action_page.php" target="_self" autocomplete="on">
-        <fieldset>
-            <legend>Customer Service</legend>
-            <select name="Customer Service">
-                        <option value="Quote">Quote</option>
-                        <option value="Complaint">Complaint</option>
-                        <option value="Resquest for information">Resquest for information</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <legend>Personal information</legend>
-            <input type="radio" name="gender" value="Madam.">Madam.
-            <input type="radio" name="gender" value="Sir.">Sir.<br><br>
-            <input type="text" name="firstname" value="" placeholder="First Name" size="30" autofocus>
-            <input type="text" name="lastname" value="" placeholder="Last Name" size="30"><br><br>
-            <input type="tel" name="usrtel" size="30" maxlength="10" valu2e="+32">
-            <input type="email" name="email" placeholder="Email" size="30"><br>
-            <br>
-            <textarea name="message" rows="10" cols="30" placeholder="Write your message here..."></textarea><br>
-            <button type="button" onclick="alert('Message Send!')">Send</button>
-        </fieldset>
-        <fieldset>
-            <legend>Promotions</legend>
-            <input type="number" name="promo1" value="1" min="0" max="10">
-            <button type="button" onclick="alert('I enjoy!')">To buy!</button>
-            <input type="number" name="promo2" value="1" min="0" max="10">
-            <button type="button" onclick="alert('I enjoy!')">To buy!</button>
+        <div>
+            <form action="/action_page.php" target="_self" autocomplete="on">
+            <fieldset>
+                <legend>Customer Service</legend>
+                <select name="Customer Service">
+                            <option value="Quote">Quote</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Resquest for information">Resquest for information</option>
+                </select>
+            </fieldset>  
+            <fieldset>
+                <legend>Personal information</legend>
+                    <input type="radio" name="gender"  value="Madam.">Madam.
+                    <input type="radio" name="gender"  value="Sir.">Sir.<br><br>
+                    <input type="text" name="firstname" value="" placeholder="First Name" size="30" autofocus style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px; margin-right:10px;">
+                    <input type="text" name="lastname" value="" placeholder="Last Name" size="30" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px;"><br><br>
+                    <input type="text" name="email" placeholder="Email" size="30" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px; margin-right: 10px;">
+                    <input type="text" name="usrtel" size="30" maxlength="10" value="+32" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px;"><br>
+                    <br>
+                    <textarea name="message"  rows="10" cols="30" placeholder="Write your message here..." style="border-radius:4px; border:1px solid #ccc;"></textarea><br>
+                    <button type="button" onclick="alert('Message Send!')">Send</button>
+            </fieldset>   
+            <fieldset>
+             <legend>Promotions</legend>
+              <div class="abajo">
+                <input type="number" name="promo1" value="1" min="0" max="10">
+                <button type="button" onclick="alert('I enjoy!')">To buy!</button>
+                <input type="number" name="promo2" value="1" min="0" max="10">
+                <button type="button" onclick="alert('I enjoy!')">To buy!</button>
+                
             </fieldset>
-        </form>
+            </form>
+        </div>
     </body>
 
 </html>
