@@ -9,35 +9,24 @@
         <h1>Contact Us!</h1>
         <div>
             <form action="/action_page.php" target="_self" autocomplete="on">
-            <fieldset>
-                <legend>Customer Service</legend>
+                <h2>Customer Service</h2>
                 <select name="Customer Service">
                             <option value="Quote">Quote</option>
                             <option value="Complaint">Complaint</option>
                             <option value="Resquest for information">Resquest for information</option>
                 </select>
-            </fieldset>  
-            <fieldset>
-                <legend>Personal information</legend>
-                    <input type="radio" name="gender"  value="Madam.">Madam.
-                    <input type="radio" name="gender"  value="Sir.">Sir.<br><br>
-                    <input type="text" name="firstname" value="" placeholder="First Name" size="30" autofocus style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px; margin-right:10px;">
-                    <input type="text" name="lastname" value="" placeholder="Last Name" size="30" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px;"><br><br>
-                    <input type="text" name="email" placeholder="Email" size="30" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px; margin-right: 10px;">
-                    <input type="text" name="usrtel" size="30" maxlength="10" value="+32" style="border-radius:4px; border:1px solid #ccc; padding: 8px 20px;"><br>
+            
+                <h2>Personal information</h2>
+                    <input type="radio" name="gender"  value="Madam." style="margin-left:37%;"><p><b>Madam.</b></p>
+                    <input type="radio" name="gender"  value="Sir."><p><b>Sir.</b></p><br><br>
+                    <input type="text" name="firstname" value="" placeholder="First Name" size="30" autofocus style="border-radius:4px; border:1px solid rgb(255, 255, 255); padding: 8px 20px; margin-right:10px; margin-left:5%;">
+                    <input type="text" name="lastname" value="" placeholder="Last Name" size="30" style="border-radius:4px; border:1px solid rgb(255, 255, 255); padding: 8px 20px;"><br><br>
+                    <input type="text" name="email" placeholder="Email" size="30" style="border-radius:4px; border:1px solid rgb(255, 255, 255); padding: 8px 20px; margin-right: 10px; margin-left:5%;">
+                    <input type="text" name="usrtel" size="30" maxlength="10" value="+32" style="border-radius:4px; border:1px solid rgb(255, 255, 255); padding: 8px 20px;"><br>
                     <br>
-                    <textarea name="message"  rows="10" cols="30" placeholder="Write your message here..." style="border-radius:4px; border:1px solid #ccc;"></textarea><br>
+                    <textarea name="message"  rows="10" cols="30" placeholder="Write your message here..." style="border-radius:4px; border:1px solid rgb(255, 255, 255);"></textarea><br>
                     <button type="button" onclick="alert('Message Send!')">Send</button>
-            </fieldset>   
-            <fieldset>
-             <legend>Promotions</legend>
-              <div class="abajo">
-                <input type="number" name="promo1" value="1" min="0" max="10">
-                <button type="button" onclick="alert('I enjoy!')">To buy!</button>
-                <input type="number" name="promo2" value="1" min="0" max="10">
-                <button type="button" onclick="alert('I enjoy!')">To buy!</button>
-                
-            </fieldset>
+        </div> 
             </form>
         </div>
     </body>
