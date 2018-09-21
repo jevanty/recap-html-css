@@ -67,12 +67,8 @@ h1 {
 }
 
 main {
-<<<<<<< HEAD
-    
-=======
 
 
->>>>>>> 4951025df40056c3b8a4860d92a888b3ed91766c
 }
 
 #bienvenue {
@@ -116,9 +112,9 @@ main {
   grid-gap:40px;
   border: solid 1px blue;
   padding:25px;
-  background: url("fondo.jpg");
-  width:90%;
-  height:85%;
+  background: url("images/fondo.jpg");
+  width:96%;
+  height:100vh;
 }
  .item11{
      grid-template-areas:
