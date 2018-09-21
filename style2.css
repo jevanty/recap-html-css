@@ -172,6 +172,8 @@ p{
 }
 
 footer {
+    display: block;
+    
     background-color: rgb(32, 30, 30);
     margin: 0 auto;
 }
