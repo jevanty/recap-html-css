@@ -111,20 +111,20 @@ main {
     'left left left right right right'
     'left left left right right right'
     'left left left right right right';
-  grid-gap:40px;
+  grid-gap:20px;
   padding:5% 10px 0 10px;
   background: url("images/fondo.jpg");
   width:98%;
   height:90%;
 }
  .item11{
-
-     
- }
+margin: 10% 10%;
+}
 
  .item22{
     padding: 10px;
-  }
+    margin: 10% 10%;
+}
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -134,6 +134,7 @@ main {
   margin-top: -60px;
   border-radius: 8%;
   opacity: 0.9;
+  border:none;
 }
 
 input [type=text],select {
@@ -160,7 +161,7 @@ button:hover {
 }
 
 textarea{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 p{
@@ -171,7 +172,7 @@ p{
 #mapid { 
 height: 600px;
 width: 600px; 
-margin:12% 14%;
+margin:12% 8%;
 border-radius: 4%;
 }
 
