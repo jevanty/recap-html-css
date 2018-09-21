@@ -31,6 +31,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 0px;
     display: inline-block;
+    margin-left: 20px;
 }
 
 /* Add a black background color to the top navigation */
@@ -39,6 +40,7 @@ h1 {
     /* overflow: hidden;  */
     display: inline-block;
     float: right;
+    margin-right: 20px;
 }
 
 /* Style the links inside the navigation bar */
