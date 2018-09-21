@@ -69,19 +69,15 @@ h1 {
 }
 
 main {
-<<<<<<< HEAD
-    
-=======
 
 
->>>>>>> 4951025df40056c3b8a4860d92a888b3ed91766c
 }
 
 #bienvenue {
     padding-top: 50px;
     height: 100vh;
     width: 100wh;
-    background-image: url(https://best-wallpaper.net/wallpaper/1920x1080/1704/Wheat-field-countryside-farm_1920x1080.jpg);
+    background-image: url("images/fondo.jpg");
     background-repeat: no-repeat;
     top: 0;
 }
@@ -117,10 +113,10 @@ main {
     'left left left right right right';
   grid-gap:40px;
   border: solid 1px blue;
-  padding:25px;
-  background: url("fondo.jpg");
-  width:90%;
-  height:85%;
+  padding:5% 10px 0 10px;
+  background: url("images/fondo.jpg");
+  width:100vw;
+  height:100vh;
 }
  .item11{
      grid-template-areas:
