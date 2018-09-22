@@ -118,22 +118,20 @@ main {
   height:90%;
 }
  .item11{
-margin: 10% 10%;
+  margin: 30% 10%;
 }
 
  .item22{
-    padding: 10px;
-    margin: 10% 10%;
+    margin: 30% 10% ;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(248, 239, 239, 0.3);
   text-align: center;
   padding: 20px 0;
   font-size: 29px;
-  margin-top: -60px;
+  margin-top: -10px;
   border-radius: 8%;
-  opacity: 0.9;
   border:none;
 }
 
@@ -163,6 +161,8 @@ button:hover {
 textarea{
     font-size: 18px;
 }
+
+
 
 p{
     color:#000;
