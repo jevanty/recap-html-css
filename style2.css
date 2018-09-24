@@ -37,7 +37,7 @@ h1 {
 /* Add a black background color to the top navigation */
 
 .topnav {
-    /* overflow: hidden;  */
+    overflow: hidden; 
     display: inline-block;
     float: right;
     margin-right: 20px;
@@ -118,19 +118,20 @@ main {
   height:90%;
 }
  .item11{
-  margin: 30% 10%;
+  margin: 30% 10% 100%;
 }
 
  .item22{
-    margin: 30% 10% ;
+    margin: 30% 10% 120%;
+
 }
 
 .grid-container > div {
-  background-color: rgba(248, 239, 239, 0.3);
+  background-color: rgba(248, 239, 239, 0.2);
   text-align: center;
   padding: 20px 0;
   font-size: 29px;
-  margin-top: -10px;
+  margin-top: -20px;
   border-radius: 8%;
   border:none;
 }
@@ -170,10 +171,11 @@ p{
 }
 
 #mapid { 
-height: 600px;
-width: 600px; 
-margin:12% 8%;
+height: 510px;
+width: 500px; 
+margin:10% 15%;
 border-radius: 4%;
+
 }
 
 footer {
