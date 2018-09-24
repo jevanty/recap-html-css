@@ -95,11 +95,45 @@ main {
    
 }
 
+.flex-container{
+    border: solid 3px red;
+    display: flex;
+    height: 88%;
+}
+
+.flex-promotions {
+    flex-flow: column;
+    border: solid 3px gainsboro;
+    height: 95%;
+    width: 20%;
+    margin:10px;
+  }
+
+.flex-promotions > div {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    height: 200px;
+  }
+
+.flex-products{
+    border: solid 3px;
+    width: 75%;
+}
+.flex-products > div {
+    background-color: #156419;
+    color: white;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+
+}
+
 #contact {
     padding-top: 50px;
     height: 100vh;
     width: 100vw;
-    ;
+    
 }
     
 .item11 { grid-area: left; }
