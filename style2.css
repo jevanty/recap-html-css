@@ -99,6 +99,8 @@ main {
     border: solid 3px red;
     display: flex;
     height: 95%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
 }
 
 
