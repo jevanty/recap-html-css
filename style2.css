@@ -88,7 +88,7 @@ main {
 }
 
 
-#products {
+#Galerie {
     padding-top: 50px;
     height: 100vh;
     width: 100wh;
@@ -98,36 +98,9 @@ main {
 .flex-container{
     border: solid 3px red;
     display: flex;
-    height: 88%;
-}
-
-.flex-promotions {
-    flex-flow: column;
-    border: solid 3px gainsboro;
     height: 95%;
-    width: 20%;
-    margin:10px;
-  }
-
-.flex-promotions > div {
-    width: 300px;
-    margin: 20px;
-    text-align: center;
-    height: 200px;
-  }
-
-.flex-products{
-    border: solid 3px;
-    width: 75%;
 }
-.flex-products > div {
-    background-color: #156419;
-    color: white;
-    width: 300px;
-    height: 200px;
-    align-items: center;
 
-}
 
 #contact {
     padding-top: 50px;
@@ -161,10 +134,10 @@ main {
 }
 
 .grid-container > div {
-  background-color: rgba(248, 239, 239, 0.2);
+  background-color: rgba(245, 243, 243, 0.2);
   text-align: center;
   padding: 20px 0;
-  font-size: 29px;
+  font-size: 30px;
   margin-top: -20px;
   border-radius: 8%;
   border:none;
