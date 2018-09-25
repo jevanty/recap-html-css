@@ -123,95 +123,56 @@ main {
 }
 
 #Products {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  display: grid;
+  height: 50vh;
   width: 100wh;
   background-color: rgb(32, 30, 30);
   color: #f2f2f2;
 }
 
-.plantrow1 {
+.content {
   display: flex;
-  justify-content: space-around;
-  width: 80%;
-  height: 40%;
-  margin: -40px auto 10px auto;
+  height:50px;
+  flex: 1;
+  background: rgb(0, 0, 0);
+  color: #000; 
+}
+
+.columns {
+  display: flex;
+  flex: 1;
   text-align: center;
-  /* border: solid 1px red;*/
+  justify-content: space-between;
 }
-
-.Byby {
-display: flex;
-width:100px;
-flex-flow:wrap;
-justify-content: flex-end;
-}
-.plantrow2 {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  height: 40%;
-  margin: 10px auto 50px auto;
-  text-align: center;
-}
-
-.A {
+.main {
+  flex: 1;
+  order: 2;
+  width: 33%;
+  background:black;
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  border-radius: 50%;
+  justify-content: space-between;
+  align-items: center;
 }
-
-
-.B {
+.sidebar-first {
+  width: 33%;
+  background:black;
+  order: 1;
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  border-radius: 50%;
+  align-items:center;
+  justify-content: space-between;
 }
-
-.C {
+.sidebar-second {
+  width: 33%;
+  order: 3;
+  background:black;
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  justify-content: center;
-  border-radius: 50%;
+  align-items:center;
+  justify-content: space-between;
 }
 
-.D {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  border-radius: 50%;
-}
-
-.E {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  border-radius: 50%;
-  justify-content: center;
-}
-
-.F {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  height: 250px;
-  border: solid 4px green;
-  border-radius: 50%;
-}
 
 #contact {
   padding-top: 50px;
