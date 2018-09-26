@@ -36,18 +36,10 @@ h1 {
 /* Add a black background color to the top navigation */
 
 .topnav {
-<<<<<<< HEAD
-    overflow: hidden; 
-    display: inline-block;
-    float: right;
-    margin-right: 20px;
-    z-index: 1;
-=======
   /* overflow: hidden;  */
   display: inline-block;
   float: right;
   margin-right: 20px;
->>>>>>> jeremy
 }
 
 /* Style the links inside the navigation bar */
@@ -79,18 +71,6 @@ main {
 }
 
 #bienvenue {
-<<<<<<< HEAD
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 60% 40%;
-    grid-template-areas: 'baniere baniere' 'description description';
-    padding-top: 50px;
-    height: 100vh;
-    width: 100wh;
-    background-color:moccasin; 
-    /* background-repeat: no-repeat; */
-    top: 0;
-=======
   display: grid;
   grid-template-columns: 100vw;
   grid-template-rows: 60% 40%;
@@ -99,7 +79,6 @@ main {
   height: 100vh;
   width: 100wh;
   top: 0;
->>>>>>> jeremy
 }
 
 #bienvenue img {
@@ -159,14 +138,6 @@ main {
   color: #000; 
 }
 
-<<<<<<< HEAD
-.flex-container{
-    border: solid 3px red;
-    display: flex;
-    height: 95%;
-    width: 90%;
-    margin: 0px 5% 0% 5%;
-=======
 .columns {
   display: flex;
   flex: 1;
@@ -200,7 +171,6 @@ main {
   flex-direction: column;
   align-items:center;
   justify-content: space-between;
->>>>>>> jeremy
 }
 
 
@@ -211,15 +181,6 @@ main {
 }
 
 .item11 {
-<<<<<<< HEAD
-    grid-area: left;
-    margin: 60px 100px 150px ;
-}
-
-.item22 {
-    grid-area: right;
-    margin: 60px 200px 140px;
-=======
   grid-area: left;
   margin: 60px 150px 200px;
 }
@@ -227,26 +188,10 @@ main {
 .item22 {
   grid-area: right;
   margin: 60px 200px 250px;
->>>>>>> jeremy
 }
 
 .grid-container {
   display: grid;
-<<<<<<< HEAD
-  grid-template-areas:
-    'left left left right right right'
-    'left left left right right right'
-    'left left left right right right';
-  grid-gap:5px;
-  padding:30px 10px 0 10px;
-  background: url("images/fondo.jpg");
-  width:98%;
-  height:50%;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 249, 249, 0.3);
-=======
   grid-template-areas: "left left left right right right";
   grid-gap: 5px;
   padding: 30px 10px 0 10px;
@@ -257,25 +202,11 @@ main {
 
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.4);
->>>>>>> jeremy
   text-align: center;
   padding: 20px;
   font-size: 20px;
   margin-top: 25px;
   border-radius: 8%;
-<<<<<<< HEAD
-  border:none;
-  margin-right: 120px;
-}
-
-input [type=text],select {
-    border: solid 1px #ccc;
-    border-radius: 10px;
-    display: inline-flex;
-    margin: auto;
-    background-color: rgb(255, 253, 253);
-    padding: 6px 15px;
-=======
   border: none;
 }
 
@@ -287,7 +218,6 @@ select {
   margin: auto;
   background-color: rgb(255, 253, 253);
   padding: 6px 15px;
->>>>>>> jeremy
 }
 
 button {
@@ -305,16 +235,6 @@ button:hover {
 }
 
 textarea {
-<<<<<<< HEAD
-    font-size: 15px;
-}
-
-p {
-    color: #000;
-    display: inline;
-}
-
-=======
   font-size: 15px;
 }
 
@@ -322,7 +242,6 @@ p {
   color: #000;
   display: inline;
 }
->>>>>>> jeremy
 
 footer {
   width: 100vw;
