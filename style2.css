@@ -1,74 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
 body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: rgb(32, 30, 30);
 }
 
 /* Style the header */
 
 .header {
-    display: block;
-    position: fixed;
-    background-color: rgb(32, 30, 30);
-    overflow-y: hidden;
-    width: 100vw;
-    height: 50px;
+  display: block;
+  position: fixed;
+  background-color: rgb(32, 30, 30);
+  overflow-y: hidden;
+  width: 100vw;
+  height: 50px;
+  z-index: 100;
 }
 
 h1 {
-    color: rgb(145, 137, 137);
-    font-size: 1.5em;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
+  color: white;
+  font-size: 2em;
+  padding-left: 5px;
+  margin: 10px 20px 0px 0px;
+  display: inline-block;
+  float: left;
 }
 
 /* Add a black background color to the top navigation */
 
 .topnav {
+<<<<<<< HEAD
     overflow: hidden; 
     display: inline-block;
     float: right;
     margin-right: 20px;
     z-index: 1;
+=======
+  /* overflow: hidden;  */
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+>>>>>>> jeremy
 }
 
 /* Style the links inside the navigation bar */
 
 .topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-    font-size: 17px;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: rgb(92, 175, 94);
-    color: white;
+  background-color: rgb(92, 175, 94);
+  color: white;
 }
 
-main {}
+main {
+}
 
 #bienvenue {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 60% 40%;
@@ -79,64 +90,128 @@ main {}
     background-color:moccasin; 
     /* background-repeat: no-repeat; */
     top: 0;
+=======
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 60% 40%;
+  grid-template-areas: "baniere baniere" "description description";
+  padding-top: 50px;
+  height: 100vh;
+  width: 100wh;
+  top: 0;
+>>>>>>> jeremy
 }
 
-img {
-    width: 100%;
-    position: absolute;
-    bottom: -300px;
+#bienvenue img {
+  width: 100%;
+  position: absolute;
+  bottom: -300px;
 }
 
 .banniere {
-    position: relative;
-    align-content: bottom;
-    /* border: 2px red solid; */
-    grid-area: baniere;
-    /* background-image: url("images/fondo.jpg"); */
-    overflow: hidden;
+  position: relative;
+  align-content: bottom;
+  grid-area: baniere;
+  overflow: hidden;
 }
 
 .description {
-    background-color: rgb(32, 30, 30);
-    grid-area: description;
-    margin-top: 0px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 20px;
-    color: #AAA;
-
+  background-color: rgb(32, 30, 30);
+  display: flex;
+  margin-top: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  color: #aaa;
+  flex-direction: row;
 }
 
 .description p {
-
-color: white;
-
+  color: white;
 }
 
-
-#Galerie {
-    padding-top: 50px;
-    height: 100vh;
-    width: 100wh;
+.p1 {
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+.p2 {
+  float: right;
+  width: 50%;
+  text-align: left;
+  padding: 30px 0px 0px 25%;
+  font-size: 25px;
 }
 
+#Products {
+  display: grid;
+  height: 50vh;
+  width: 100wh;
+  background-color: rgb(32, 30, 30);
+  color: #f2f2f2;
+}
+
+.content {
+  display: flex;
+  height:50px;
+  flex: 1;
+  background: rgb(0, 0, 0);
+  color: #000; 
+}
+
+<<<<<<< HEAD
 .flex-container{
     border: solid 3px red;
     display: flex;
     height: 95%;
     width: 90%;
     margin: 0px 5% 0% 5%;
+=======
+.columns {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: space-between;
+}
+.main {
+  flex: 1;
+  order: 2;
+  width: 33%;
+  background:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-first {
+  width: 33%;
+  background:black;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+}
+.sidebar-second {
+  width: 33%;
+  order: 3;
+  background:black;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+>>>>>>> jeremy
 }
 
 
 #contact {
-    padding-top: 50px;
-    height: 100vh;
-    width: 100vw;
-    
+  padding-top: 50px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .item11 {
+<<<<<<< HEAD
     grid-area: left;
     margin: 60px 100px 150px ;
 }
@@ -144,10 +219,20 @@ color: white;
 .item22 {
     grid-area: right;
     margin: 60px 200px 140px;
+=======
+  grid-area: left;
+  margin: 60px 150px 200px;
+}
+
+.item22 {
+  grid-area: right;
+  margin: 60px 200px 250px;
+>>>>>>> jeremy
 }
 
 .grid-container {
   display: grid;
+<<<<<<< HEAD
   grid-template-areas:
     'left left left right right right'
     'left left left right right right'
@@ -161,11 +246,24 @@ color: white;
 
 .grid-container > div {
   background-color: rgba(255, 249, 249, 0.3);
+=======
+  grid-template-areas: "left left left right right right";
+  grid-gap: 5px;
+  padding: 30px 10px 0 10px;
+  background: url("images/fondo2.jpg");
+  width: 98%;
+  height: 95%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.4);
+>>>>>>> jeremy
   text-align: center;
   padding: 20px;
   font-size: 20px;
   margin-top: 25px;
   border-radius: 8%;
+<<<<<<< HEAD
   border:none;
   margin-right: 120px;
 }
@@ -177,23 +275,37 @@ input [type=text],select {
     margin: auto;
     background-color: rgb(255, 253, 253);
     padding: 6px 15px;
+=======
+  border: none;
+}
+
+input [type="text"],
+select {
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  display: inline-flex;
+  margin: auto;
+  background-color: rgb(255, 253, 253);
+  padding: 6px 15px;
+>>>>>>> jeremy
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 11px 35px;
-    margin: 12px 40%;
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 11px 35px;
+  margin: 12px 40%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
 }
 
 button:hover {
-    background-color: #156419;
+  background-color: #156419;
 }
 
 textarea {
+<<<<<<< HEAD
     font-size: 15px;
 }
 
@@ -202,35 +314,48 @@ p {
     display: inline;
 }
 
+=======
+  font-size: 15px;
+}
+
+#contact p {
+  color: #000;
+  display: inline;
+}
+>>>>>>> jeremy
 
 footer {
-    display: flex;
-    align-items: flex-end;
-    width: 100vw;
-    background-color: rgb(32, 30, 30);
-    margin: 0 auto;
-    top: bottom;
-    height: 50px;
+  width: 100vw;
+  background-color: rgb(32, 30, 30);
+  margin: 0 auto;
+  bottom: 0;
+  height: 55px;
+  position: fixed;
 }
 
 .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    text-align: center;
-    margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  margin: 2px;
+  padding-top: 10px;
+}
+
+.icon:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 ul a {
-    color: #AAA;
-    font-size: 1em;
-    line-height: 3em;
+  color: #aaa;
+  font-size: 1em;
+  line-height: 3em;
 }
 
 .icon li {
-    display: inline;
-    margin: auto 40px auto 40px;
-    justify-content: center;
-    align-items: center;
+  display: inline;
+  margin: auto 40px auto 40px;
 }
